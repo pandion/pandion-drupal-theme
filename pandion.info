@@ -1,0 +1,51 @@
+name = Pandion
+description = Pandion Theme for Drupal. The MangoHaliae Interim Release.
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+scripts[] = unitpngfix.js
+
+; Screenshots Carousel
+scripts[] = js/lib/jquery.jcarousellite-1.0.1.js
+scripts[] = js/lib/jquery.easing.1.3.js
+scripts[] = js/screenshots.js
+
+; Menu Animation
+;scripts[] = js/lib/jquery.easing.1.3.js
+;scripts[] = js/lib/jquery.lavalamp.1.3.js
+;scripts[] = js/menu.js
+
+regions[header] = Header
+
+regions[masthead_col_1] = MastHead Column 1
+regions[masthead_col_2] = MastHead Column 2
+
+regions[frontpage_col_1] = Frontpage Column 1 HIGHLIGHTed
+regions[frontpage_col_2] = Frontpage Column 2
+regions[frontpage_col_3] = Frontpage Column 3
+
+regions[content] = Content
+regions[content_top] = Content top
+regions[content_bottom] = Content bottom
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+
+regions[footer_col_1] = Footer Column 1
+regions[footer_col_2] = Footer Column 2
+regions[footer_col_3] = Footer Column 3
+regions[footer_col_4] = Footer Column 4
+
+regions[google_cse] = Google Custom Search
+regions[footer_note] = Footer Note
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
