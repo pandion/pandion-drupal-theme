@@ -1,0 +1,5 @@
+﻿h1. Drupal Theme for the Pandion Homepage
+
+??Good designers copy, great designers steal. ― Pablo Picasso??
+
+This is the theme of the main Pandion website. It is developed for Drupal 6.x and tested against all mainstream browsers.
